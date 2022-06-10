@@ -1,4 +1,4 @@
-# 🍔 Adote um Pet 🍔
+# 🐶 Adote um Pet 🐶
 
 Aplicação web para adoção de um animal virtualmente. O sistema conta com uma página de todos os animais para adoção, podendo ser cadastrado um animal novo e listados.
 
@@ -21,12 +21,12 @@ Avançar no aprendizado de alguns recursos, como:
 - Adição de novos campos na interface de pedidos
 - Nova Interface 
 
-## 📱 Layout
-   https://user-images.githubusercontent.com/47436367/172855282-3e9852ea-b3dd-4e0c-8008-bc4cd7f47257.mp4
+## 💻 Layout
+   https://user-images.githubusercontent.com/83045002/172971190-4d12e141-4ea7-4c93-8dfa-a82a62fdb2af.png
 
-   https://user-images.githubusercontent.com/47436367/172855433-439d990a-e2b0-4fdf-aa05-37e1f5192221.mp4
+   https://user-images.githubusercontent.com/83045002/172971276-40f0ea59-083b-4e59-8173-6467bba66018.png
 
-   https://user-images.githubusercontent.com/47436367/172855480-2ec6b33e-51ba-412d-aaf3-619bf3fba0b8.mp4
+   https://user-images.githubusercontent.com/83045002/172971315-daa0d28e-d08b-462a-961c-512aad3d5db1.png
 
 ## ⚛ Principais Tecnologias / Bibliotecas utilizadas
 - [ReactJs](https://pt-br.reactjs.org/)
