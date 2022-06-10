@@ -1,4 +1,4 @@
-# 🍔 Doações Online 🍔
+# 🌎 Doações Online 🌎
 
 Aplicação web para doações de um virtualmente. O sistema conta com uma página de todos as ongs para doação, podendo ser cadastrado uma ong nova e listadas. O intuito é poder colaborar na divulgação das ongs, ajudando tanto o usuários quanto as ongs, deixando a maneira de doação mais fácil e pratica.
 
