@@ -1,34 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍔 Adote um Pet 🍔
 
-## Getting Started
+Aplicação web para adoção de um animal virtualmente. O sistema conta com uma página de todos os animais para adoção, podendo ser cadastrado um animal novo e listados.
 
-First, run the development server:
+## 📖 Objetivo
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Avançar no aprendizado de alguns recursos, como:
+- Recursos do ReactJs:
+    - Componentes no React;
+    - Reutilizar componentes;
+    - Styled Componentes;
+- Next.js
+    -  Criar projetos;
+    - Criar páginas;
+- Hooks de validação
+- Componentes personalizados
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 💡 Futuras implementações
+- Personalização do projeto 
+- Adição de novos campos na interface de pedidos
+- Nova Interface 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📱 Layout
+   https://user-images.githubusercontent.com/47436367/172855282-3e9852ea-b3dd-4e0c-8008-bc4cd7f47257.mp4
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   https://user-images.githubusercontent.com/47436367/172855433-439d990a-e2b0-4fdf-aa05-37e1f5192221.mp4
 
-## Learn More
+   https://user-images.githubusercontent.com/47436367/172855480-2ec6b33e-51ba-412d-aaf3-619bf3fba0b8.mp4
 
-To learn more about Next.js, take a look at the following resources:
+## ⚛ Principais Tecnologias / Bibliotecas utilizadas
+- [ReactJs](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Emotion](https://emotion.sh/docs/introduction)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [NextJs](https://nextjs.org/)
+- [Mui](https://mui.com/pt/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🔧 Executando a aplicação
+1. Efetue o download desse projeto em sua máquina ou clone usando o comando ``git clone https://github.com/MarcusPOliveira/makeBurguer``
+2. Abra a pasta ``makeBurguer`` em seu Prompt de preferência
+3. Rode o comando ``yarn install`` ou ``npm install`` para instalar a pasta ``node_modules``
+4. Execute o comando ``npx react-native run-android`` para rodar a aplicação com seu emulador de preferência ou dispositivo físico.
+5. Com propósitos de testes, utilize as seguintes credenciais (só funcionam nesse app) para logar:</br>
+    admin</br>
+      email: admin@admin.com</br>
+      senha: 123123</br></br>
+    garçom</br>
+        email: garcom@garcom.com</br>
+        senha: 123123

@@ -1,6 +1,6 @@
 import { Pet } from './../../@types/pet';
 import { useState, useEffect } from "react"
-import { ApiServices } from '../../services/ApiService';
+import { ApiService } from '../../services/ApiService';
 import { AxiosError } from 'axios';
 
 export function useIndex(){
@@ -11,7 +11,7 @@ export function useIndex(){
         [mensagem, setMensagem] = useState('');
 
     useEffect(() => {
-        ApiServices.get('/pets')
+        ApiService.get('/pets')
             .then((resposta) => {
                 setListaPets(resposta.data);
             })
@@ -26,7 +26,7 @@ export function useIndex(){
     function adotar(){
         if(petSelecionado !== null){
             if(validarDadosAdocao()){
-                ApiServices.post('/adocoes', {
+                ApiService.post('/adocoes', {
                     pet_id: petSelecionado.id,
                     email,
                     valor
