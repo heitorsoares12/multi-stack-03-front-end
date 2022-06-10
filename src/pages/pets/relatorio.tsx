@@ -16,8 +16,8 @@ const Relatorio: NextPage = () => {
   return (
     <>
       <Titulo
-        titulo={"Relatório de Adoção"}
-        subtitulo={<span>Veja a lista de pets adotados</span>}
+        titulo={"Relatório de Doação"}
+        subtitulo={<span>Veja a lista de doações realizadas</span>}
       />
       <TableContainer
         component={Paper}
@@ -26,7 +26,7 @@ const Relatorio: NextPage = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Pet</TableCell>
+              <TableCell>Ong</TableCell>
               <TableCell>E-mail</TableCell>
               <TableCell align={"right"}>Valor mensal</TableCell>
             </TableRow>

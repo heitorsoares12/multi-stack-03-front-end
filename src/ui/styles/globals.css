@@ -1,4 +1,7 @@
-html,
+html{
+  background-color: #252829;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -13,4 +16,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.textoVerde{
+  color: #00E472;
+}
+
+.home{
+  background-color: #252829;
+  color: #ffff;
+}
+
+.buttonLink{
+
+  background-color: #632CA6;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.buttonLink:hover{
+  background-color: #774fa9;
 }

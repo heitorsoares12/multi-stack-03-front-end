@@ -26,15 +26,10 @@ const Home: NextPage = () => {
   } = useIndex();
 
   return (
-    <div>
+    <div className="home">
       <Titulo
         titulo=""
-        subtitulo={
-          <span>
-            Com um pequeno valor mensal, voce <br />
-            pode <strong>adotar um per virtualmente</strong>
-          </span>
-        }
+        subtitulo={<p>Com um pequeno valor mensal, voce <br />pode <strong>ajudar uma causa virtualmente!!</strong> </p>}
       />
 
       <Lista pets={listaPets} onSelect={(pet) => setPetSelecionado(pet)} />
@@ -66,10 +61,10 @@ const Home: NextPage = () => {
           </Grid>
         </Grid>
         <DialogActions sx={{ mt: 5 }}>
-          <Button color={"secondary"} onClick={() => setPetSelecionado(null)}>
+          <Button color={"primary"} variant={"outlined"}onClick={() => setPetSelecionado(null)}>
             Cancelar
           </Button>
-          <Button variant={"contained"} onClick={() => adotar()} >Confirmar adoção</Button>
+          <Button color={"primary"} variant={"contained"} onClick={() => adotar()} >Confirmar doação</Button>
         </DialogActions>
       </Dialog>
 

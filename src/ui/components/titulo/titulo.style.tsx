@@ -1,6 +1,7 @@
 import { styled } from "@mui/system";
 
 export const TituloStyled = styled('h1')`
+    color: aliceblue;
     font-size: 20px;
     text-align: center;
     margin-top: ${({ theme }) => theme.spacing(5)};

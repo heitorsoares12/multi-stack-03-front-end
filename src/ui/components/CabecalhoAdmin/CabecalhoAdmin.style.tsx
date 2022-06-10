@@ -2,7 +2,7 @@ import { styled } from "@mui/system";
 
 export const CabecalhoContainer = styled('header')`
     height: 115px;
-    background-color: #f6f6f6;
+    background-color: #313536;
     padding: ${({ theme }) => theme.spacing(2) };
     
     div{
@@ -21,10 +21,11 @@ export const CabecalhoContainer = styled('header')`
 `;
 
 export const Logo = styled('img')`
-    width: 105px;
+    width:  85px;
 `;
 
 export const LinksContainer = styled('nav')`
+    color: white;
     display: flex;
     gap: ${({ theme }) => theme.spacing(2) };
     flex-wrap: wrap;

@@ -20,18 +20,18 @@ const Cadastro: NextPage = () => {
     return (
         <>
             <Titulo
-                titulo={'Cadastro de Pets para Adoção'}
-                subtitulo={<span>Preencha os dados do novo Pet</span>}
+                titulo={'Cadastro de Ong para Doação'}
+                subtitulo={<span>Preencha os dados da nova Ong</span>}
             />
 
-            <Paper sx={{maxWidth: 970, mx: 'auto', p: 5}} >
+            <Paper sx={{maxWidth: 970, mx: 'auto', p: 5, marginBottom: 4}} >
                 <Grid container spacing={3} >
                     <Grid item xs={12} >
                         <TextField 
                             value={nome}
                             onChange={(e) => setNome(e.target.value)}
                             label={'Nome'}
-                            placeholder={'Digite o nome do pet'}
+                            placeholder={'Digite o nome da ong'}
                             fullWidth
                         />
                     </Grid>
@@ -39,7 +39,7 @@ const Cadastro: NextPage = () => {
                         <TextField
                             value={historia}
                             onChange={(e) => setHistoria(e.target.value)}
-                            label={'História do Pet'}
+                            label={'História da ong'}
                             multiline
                             fullWidth
                             rows={4}
@@ -71,7 +71,7 @@ const Cadastro: NextPage = () => {
                             fullWidth
                             sx={{maxWidth: {md: 200}, mt: 4}}
                         >
-                            Cadastrar Pet
+                            Cadastrar Ong
                         </Button>
                     </Grid>
                 </Grid>

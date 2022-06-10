@@ -1,6 +1,6 @@
-# 🐶 Adote um Pet 🐶
+# 🍔 Doações Online 🍔
 
-Aplicação web para adoção de um animal virtualmente. O sistema conta com uma página de todos os animais para adoção, podendo ser cadastrado um animal novo e listados.
+Aplicação web para doações de um virtualmente. O sistema conta com uma página de todos as ongs para doação, podendo ser cadastrado uma ong nova e listadas. O intuito é poder colaborar na divulgação das ongs, ajudando tanto o usuários quanto as ongs, deixando a maneira de doação mais fácil e pratica.
 
 ## 📖 Objetivo
 
@@ -18,15 +18,18 @@ Avançar no aprendizado de alguns recursos, como:
 
 ## 💡 Futuras implementações
 - Personalização do projeto 
-- Adição de novos campos na interface de pedidos
+- Adição de novos campos na interface de relatório
 - Nova Interface 
 
-## 💻 Layout
-   https://user-images.githubusercontent.com/83045002/172971190-4d12e141-4ea7-4c93-8dfa-a82a62fdb2af.png
+## 📱 Layout
 
-   https://user-images.githubusercontent.com/83045002/172971276-40f0ea59-083b-4e59-8173-6467bba66018.png
+   ![home](https://user-images.githubusercontent.com/83045002/173162745-962bb12a-ecbf-4471-8eb0-538965f59969.png)
 
-   https://user-images.githubusercontent.com/83045002/172971315-daa0d28e-d08b-462a-961c-512aad3d5db1.png
+   ![modal](https://user-images.githubusercontent.com/83045002/173162784-11e66795-eeb7-4948-b7c5-1d26ae4decfe.png)
+
+   ![relatorio](https://user-images.githubusercontent.com/83045002/173162815-b8cb18df-5b52-44ae-86d7-dbaeee35b5d0.png)
+
+   ![cadastro](https://user-images.githubusercontent.com/83045002/173162837-85e7df7e-2076-4797-902d-45a01d7e83d3.png)
 
 ## ⚛ Principais Tecnologias / Bibliotecas utilizadas
 - [ReactJs](https://pt-br.reactjs.org/)

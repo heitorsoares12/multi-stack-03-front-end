@@ -6,7 +6,7 @@ import {
   Foto,
   Informacoes,
   Descricao,
-  Nome,
+  Nome
 } from "./lista.style";
 import { Pet } from "../../../data/@types/pet";
 import { TextService } from "../../../data/services/textService";
@@ -29,7 +29,8 @@ export default function Lista(props: ListaProps) {
               {TextService.limitarTexto(pet.historia, tamanhoMaximoTexto)}
             </Descricao>
             <Button variant={"contained"} fullWidth onClick={() => props.onSelect(pet)}>
-              Adotar {pet.nome}
+              
+              Doar para {pet.nome}
             </Button>
           </Informacoes>
         </ItemLista>

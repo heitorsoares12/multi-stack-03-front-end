@@ -21,7 +21,10 @@ export const ItemLista = styled('li')`
 `;
 
 export const Foto = styled('img')`
-    width: 100%;
+    max-width:350px;
+    max-height:350px;
+    width: auto;
+    height: auto;
 `;
 
 export const Informacoes = styled('div')`
@@ -38,3 +41,5 @@ export const Descricao = styled('p')`
     margin: 0;
     word-break: break-word;
 `;
+
+
