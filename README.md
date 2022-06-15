@@ -40,14 +40,8 @@ Avançar no aprendizado de alguns recursos, como:
 - [Mui](https://mui.com/pt/)
 
 ## 🔧 Executando a aplicação
-1. Efetue o download desse projeto em sua máquina ou clone usando o comando ``git clone https://github.com/MarcusPOliveira/makeBurguer``
-2. Abra a pasta ``makeBurguer`` em seu Prompt de preferência
+1. Efetue o download desse projeto em sua máquina ou clone usando o comando ``git clone https://github.com/heitorsoares12/multi-stack-03-front-end.git``
+2. Abra a pasta ``PETS`` em seu Prompt de preferência
 3. Rode o comando ``yarn install`` ou ``npm install`` para instalar a pasta ``node_modules``
-4. Execute o comando ``npx react-native run-android`` para rodar a aplicação com seu emulador de preferência ou dispositivo físico.
-5. Com propósitos de testes, utilize as seguintes credenciais (só funcionam nesse app) para logar:</br>
-    admin</br>
-      email: admin@admin.com</br>
-      senha: 123123</br></br>
-    garçom</br>
-        email: garcom@garcom.com</br>
-        senha: 123123
+4. Execute o comando ``npm start`` para rodar a aplicação.
+5. Com propósitos de testes, efetue o download desse projeto em sua máquina ou clone usando o comando ``git clone https://github.com/heitorsoares12/multi-stack-03-back-end.git``
